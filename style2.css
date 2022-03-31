@@ -1,0 +1,992 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+#logo{
+    /* padding: 20px; */
+    height: 100px;
+    width: 100px;
+     margin-top: 0px;
+     margin-left: 30px;
+}
+hr{
+    margin-top: -4px;
+}
+
+
+
+.Toyota #car-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    position: absolute;
+    left: 22vw;
+    top: 200px;
+}
+.Toyota h1 {
+    font-size: 60px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 30vw;
+}
+.Toyota em{
+    position: absolute;
+    top: 550px;
+    left: 25vw;
+    width: 650px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* main?? */
+
+.future #car-2{
+    width: 53vw;
+    height: 420px;
+    position: absolute;
+    top: 700px;
+}
+.future #lines-1{
+    position: absolute;
+    top: 670px;
+    left: 55vw;
+    height: 120px;
+    width: 120px;
+}
+
+.future h2{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 700px;
+    left: 59vw;
+    font-size: 40px;
+}
+.future em{
+    color: black;
+    position: absolute;
+    top: 810px;
+    left: 60vw;
+    width: 360px;
+    font-family: 'Quicksand', sans-serif;
+}
+.future #learn{
+    background-color: blueviolet;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    top: 1000px;
+    left: 65vw;
+    font-family: 'Oswald', sans-serif;
+    border-color: blueviolet;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+/* machine? */
+.machine h2{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 1240px;
+    left: 10vw;
+    font-size: 40px;
+}
+.machine em{
+    color: black;
+    position: absolute;
+    top: 1400px;
+    left: 9vw;
+    width: 290px;
+    font-family: 'Quicksand', sans-serif;
+}
+.machine #learn-2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    top: 1630px;
+    left: 14vw;
+    font-family: 'Oswald', sans-serif;
+    border-color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+}
+.machine #car-3{
+    width: 849px;
+    height: 420px;
+    position: absolute;
+    top: 1260px;
+    left: 36.8vw;
+}
+
+
+/* toyota? */
+.toyota h2{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 1800px;
+    left: 10vw;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    width: 400px;
+}
+.toyota #lines-2{
+    position: absolute;
+    top: 1770px;
+    left: 6vw;
+    height: 140px;
+    width: 140px;
+}
+.toyota em{
+    color: black;
+    position: absolute;
+    top: 1950px;
+    left: 10vw;
+    width: 340px;
+    font-family: 'Quicksand', sans-serif;
+}
+.toyota #car-4{
+    width: 800px;
+    height: 420px;
+    position: absolute;
+    top: 1800px;
+    left: 40vw;
+}
+.toyota #learn-3{
+    background-color: blueviolet;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    top: 2170px;
+    left: 14vw;
+    font-family: 'Oswald', sans-serif;
+    border-color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+}
+
+
+/* looks? */
+
+.looks h2{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 2500px;
+    left: 63vw;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.looks em{
+    color: black;
+    position: absolute;
+    top: 2630px;
+    left: 64vw;
+    width: 350px;
+    font-family: 'Quicksand', sans-serif;
+}
+.looks #car-5{
+    width: 56vw;
+    height: 420px;
+    position: absolute;
+    top: 2500px;
+    left: 0px;
+}
+.looks #learn-4{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    top: 2850px;
+    left: 67vw;
+    font-family: 'Oswald', sans-serif;
+    border-color: rgb(0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+}
+
+
+/* blue-box? */
+
+.blue-box{
+    background-color: rgb(85, 113, 165);
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    top: 3100px;
+}
+.blue-box  p{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70px;
+    left: 9vw;
+    width: 390px;
+    font-weight: bolder;
+    line-height: 26px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.blue-box .white{
+    background-color: white;
+    width: 530px;
+    height: 380px;
+    position: relative;
+    top: 40px;
+    left: 60vw;
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+}
+
+.blue-box .white h2{
+    color: black;
+    position: relative;
+    top: 50px;
+    left: 90px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    width: 340px;
+}
+.blue-box .white #learn-5{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    /* border-color: rgb(0, 0, 0); */
+    border: 0px;
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/* .blue-box?? */
+
+
+/* join? */
+.join #car-6{
+    width: 590px;
+    height: 580px;
+    position: absolute;
+    top: 3600px;
+}
+.join #lines-3{
+    position: absolute;
+    top: 3720px;
+    left: 58vw;
+    height: 140px;
+    width: 140px;
+}
+.join h2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 3760px;
+    left: 62vw;
+}
+.join em{
+    color: black;
+    position: absolute;
+    top: 3860px;
+    left: 64vw;
+    width: 350px;
+    font-family: 'Quicksand', sans-serif;
+}
+.join em strong{
+    color: blueviolet;
+    cursor: pointer;
+}
+.join #join{
+    color: white;
+    background-color: blueviolet;
+    width: 9vw;
+    height: 40px;
+    position: relative;
+    top: 3870px;
+    left: 68vw;
+    font-family: 'Oswald', sans-serif;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* in?? */
+.us #lines-4{
+    position: absolute;
+    top: 4260px;
+    left: 5vw;
+    height: 140px;
+    width: 140px;
+}
+.us h2{
+    position: absolute;
+    top: 4300px;
+    left: 10vw;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.us em{
+    position: absolute;
+    top: 4400px;
+    left: 10vw;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    width: 660px;
+}
+
+
+
+/* footer? */
+
+footer{
+    background-color: rgb(77, 55, 55);
+    height: 400px;
+    width: 100vw;
+    position: absolute;
+    top: 4600px;
+}
+footer #toyota{
+    position: relative;
+    left: 45vw;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
+footer h2{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 10vw;
+    font-family: 'Oswald', sans-serif;
+}
+footer p{
+    color: white;
+    position: relative;
+    top: 110px;
+    left: 9vw;
+    font-family: 'Quicksand', sans-serif;
+}
+footer #h2-2{
+    color: white;
+    position: relative;
+    top: 45px;
+    left: 45vw;
+    font-family: 'Oswald', sans-serif;
+}
+footer #p-2{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 44vw;
+    font-family: 'Quicksand', sans-serif;
+}
+footer #h2-3{
+    color: white;
+    position: relative;
+    top: -12px;
+    left: 70vw;
+    font-family: 'Oswald', sans-serif;
+}
+footer #p-3{
+    color: white;
+    position: relative;
+    top: -8px;
+    left: 70vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+@media (max-width:988px) {
+     #car-1{
+        margin-left: -8vw;
+        /* height: 100px; */
+    }
+    .Toyota h1{
+        margin-left: -8vw;
+    }
+    .Toyota em{
+        margin-left: -8vw;
+    }
+
+
+
+    .future #car-2{
+        position: absolute;
+        left: -420px;
+        width: 960px;
+    }
+
+
+
+
+    .machine h2{
+        margin-left: -5vw;
+        width: 250px;
+        position: absolute;
+        top: 1200px;
+    }
+    .machine em{
+        margin-left: -5vw;
+        width: 240px;
+    }
+    .machine #learn-2{
+        margin-left: -3vw;
+    }
+    .machine #car-3{
+        position: absolute;
+        left: 300px;
+        width: 1000px;
+    }
+
+
+
+
+    .toyota #car-4{
+        position: absolute;
+        left: 500px;
+        }
+    .toyota #lines-2{
+        position: absolute;
+        left: 100px;
+        }
+    .toyota h2{
+        position: absolute;
+        left: 140px;
+        width: 350px;
+
+    }
+    .toyota em{
+        position: absolute;
+        left: 140px;    
+        width: 300px;
+    }
+
+
+
+
+    .looks h2{
+        z-index: 10;
+        position: relative;
+        left: 500px;
+        margin-top: -180px;
+    }
+    .looks #car-5{
+        width: 900px;    
+        position: absolute;
+        left: -320px;
+    }
+    .looks em{
+        z-index: 10;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 2580px;
+        left: 530px;
+        width: 270px;
+    }
+    .looks #learn-4{
+        position: absolute;
+        left: 550px;
+    }
+
+
+    .blue-box .white h2{
+        width: 200px;
+    }
+    .join #join{
+        position: relative;
+        top: 3960px;
+        left: 68vw;
+    }
+
+
+
+
+    @media (max-width:768px) {
+        #logo{
+            margin-top: 0px;
+            margin-left: 310px;
+    }
+    #car-1{
+        margin-left: -8vw;
+        width: 600px;
+        height: 300px;
+    }
+    .Toyota h1{
+        font-size: 50px;
+        position: absolute;
+        left: 200px;
+        top: 500px;
+    }
+    .Toyota em{
+        position: absolute;
+        left: 200px;
+        top: 600px;
+        width: 500px;
+    }
+    .future #car-2{
+        position: absolute;
+        left: -300px;
+        width: 960px;
+    }
+    .future h2{
+        position: absolute;
+        top: 1190px;
+        left: 150px;
+    }
+    .future #lines-1{
+        position: absolute;
+        top: 1150px;
+        left: 100px;
+    }
+    .future em{
+        z-index: 100;
+        position: absolute;
+        top: 1290px;
+        left: 199px;
+        width: 450px;
+    }
+    .future #learn{
+        z-index: 100;
+        position: absolute;
+        top: 1450px;
+        left: 199px;
+    }
+
+
+    .machine #car-3{
+        position: absolute;
+        top: 1680px;
+        left: 30px;
+        width: 800px;
+    }
+    .machine h2{
+        position: absolute;
+        top: 2180px;
+        left: 130px;
+        width: 500px;
+    }
+    .machine em{
+        position: absolute;
+        top: 2340px;
+        left: 140px;
+        width: 500px;
+    }
+    .machine #learn-2{
+        position: absolute;
+        top: 2490px;
+        left: 140px;
+    }
+
+
+    .toyota #car-4{
+        width: 1000px;
+        position: absolute;
+        top: 2600px;
+        left: 30px;
+    }
+    .toyota #lines-2{
+        position: absolute;
+        top: 3050px;
+        left: 50px;
+    }
+    .toyota h2{
+        position: absolute;
+        top: 3090px;
+        left: 100px;
+        width: 1000px;
+    }
+    .toyota em{
+        position: absolute;
+        top: 3190px;
+        left: 150px;
+        width: 500px;
+    }
+    .toyota #learn-3{
+        position: absolute;
+        top: 3340px;
+        left: 150px;
+    }
+    .looks #car-5{
+        position: absolute;
+        top: 3440px;
+        left: -190px;
+    }
+    .looks h2{
+        position: absolute;
+        top: 4100px;
+        left: 150px;
+    }
+    .looks em{
+        position: absolute;
+        top: 4000px;
+        left: 150px;
+        width: 490px;
+    }
+    .looks #learn-4{
+        position: absolute;
+        top: 4170px;
+        left: 190px;
+    }
+    .blue-box{
+        position: absolute;
+        top: 4370px;
+        height: 900px;
+    }
+    .blue-box p{
+        position: relative;
+        left: 150px;
+        width: 500px;
+    }
+    .blue-box .white{
+        position: relative;
+        top: 170px;
+        left: 230px;
+    }
+    .join #car-6{
+        position: absolute;
+        top: 5300px;
+        height: 600px;
+        width: 700px;
+    }
+    .join h2{
+        position: absolute;
+        top: 5950px;
+        left: 150px;
+    }
+    .join #lines-3{
+        position: absolute;
+        top: 5910px;
+        left: 100px;
+    }
+    .join em{
+        position: absolute;
+        top: 6070px;
+        left: 150px;
+        width: 500px;
+    }
+    .join #join{
+        position: absolute;
+        top: 6140px;
+        left: 150px;
+        width: 100px;
+    }
+    .us h2{
+        position: absolute;
+        top: 6340px;
+        left: 150px;
+    }
+    .us  #lines-4{
+        top: 6300px;
+        left: 100px;
+    }
+    .us em{
+        position: absolute;
+        top: 6450px;
+        left: 150px;
+        width: 400px;
+    }
+    footer{
+        top: 6600px;
+    }
+}
+@media (max-width:600px) {
+    #logo{
+        margin-left: 240px;
+    }
+    #car-1{
+        width: 600px;
+        margin-left: -22vw;
+    }
+    .Toyota h1{
+        font-size: 40px;
+        position: absolute;
+        left: 100px;
+        top: 500px;
+    }
+    .Toyota em{
+        position: absolute;
+        left: 14vw;
+        top: 600px;
+        width: 500px;
+    }
+    .future #car-2{
+        left: -400px;
+    }
+    .future h2{
+        left: 100px;
+        font-size: 34px;
+}
+    .future em{
+        left: 100px;
+    }
+    .future #learn{
+        left: 100px;
+    }
+    .machine h2 {
+        left: 60px;
+        font-size: 34px;
+    }
+    .machine em{
+        left: 60px;
+    }
+    .machine #learn-2{
+        left: 60px;
+    }
+    .toyota h2{
+        left: 50px;
+        font-size: 34px;
+    }
+    .toyota em{
+        left: 50px;
+    }
+    .toyota #learn-3{
+        left: 50px;
+    }
+    .looks h2{
+        left: 50px;
+        font-size: 34px;
+    }
+    .looks em {
+        left: 50px;
+    }
+    .looks #learn-4{
+        left: 50px;
+    }
+    .blue-box p{
+        left: 30px;
+    }
+    .blue-box .white{
+        width: 600px;
+        left: 20px;
+    }
+    .blue-box .white h2{
+        left: 260px;
+    }
+    .blue-box .white #learn-5{
+        left: 260px;
+    }
+    .join #car-6{
+        width: 600px;
+        height: 500px;
+    }
+    .join em{
+        left: 50px;
+    }
+}
+
+
+@media (max-width:480px) {
+    #logo{
+        margin-left: 170px;
+    }
+    .Toyota #car-1{
+        height: 130px;
+        width: 350px;
+        top: 250px;
+        left: 35vw;
+    }
+    .Toyota h1{
+        top: 409px;
+        font-size: 30px;
+        left: 25vw;
+    }
+    .Toyota em{
+        top: 500px;
+        left: 110px;
+        width: 70vw;
+    }
+    .future #car-2{
+        width: 700px;
+        left: -280px;
+        height: 300px;
+    }
+    .future #lines-1{
+        top: 1100px;
+        left: 40px;
+    }
+    .future h2{
+        width: 300px;
+        top: 1130px;
+        left: 60px;
+    }
+    .future em{
+        top: 1240px;
+        left: 60px;
+        width: 300px;
+    }
+    .future #learn{
+        top: 1470px;
+    }
+    .machine em{
+        top: 2300px;
+        width: 300px;
+    }
+    .toyota h2{
+        width: 300px;
+    }
+    .toyota em{
+        width: 300px;
+    }
+    .toyota #learn-3{
+        top: 3400px;
+    }
+    .looks h2{
+        left: 20px;
+    }
+    .looks em{
+        width: 300px;
+        top: 4020px;
+    }
+    .looks #learn-4{
+        top: 4250px;
+    }
+    .blue-box p{
+        width: 350px;
+    }
+    .blue-box .white{
+        top: 110px;
+    }
+    .blue-box .white h2{
+        margin-left: -120px;
+    }
+    .blue-box .white #learn-5{
+        margin-left: -120px;
+    }
+    .join #car-6{
+        width: 370px;
+        height: 300px;
+    }
+    .join #lines-3{
+        top: 5700px;
+        left: 10px;
+    }
+    .join h2{
+        top: 5750px;
+        left: 50px;
+    }
+    .join em{
+        top: 5860px;
+        width: 300px;
+    }
+    .join #join{
+        top: 6000px;
+    }
+    .us #lines-4{
+        left: 40px;
+        top: 6120px;
+    }
+    .us h2{
+        left: 40px;
+        top: 6170px;
+    }
+    .us em{
+        width: 300px;
+        left: 60px;
+        top: 6270px;
+    }
+    footer{
+        height: 500px;
+    }
+    footer #toyota{
+        margin-left: -30px;
+    }
+    footer h2{
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+     footer p{
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+    footer #h2-2{
+        position: relative;
+        top: 160px;
+        left: 50px;
+    }
+     footer #p-2{
+        position: relative;
+        top: 160px;
+        left: 50px;
+    }
+    footer #h2-3{
+        position: relative;
+        top: 190px;
+        left: 50px;
+    }
+   footer #p-3{
+        position: relative;
+        top: 190px;
+        left: 50px;
+    }
+}
+@media (max-width:320px) {
+    .Toyota #car-1{
+        left: 20vw;
+    }
+    .Toyota em{
+        left: 20vw;
+    }
+    .future em{
+        left: 5vw;
+    }
+    .machine em{
+        left: 7vw;
+    }
+    .toyota h2{
+        width: 300px;
+        left: 5vw;
+    }
+    .toyota em{
+        width: 300px;
+        left: 5vw;
+    }
+    .toyota #learn-3{
+        top: 3430px;
+        z-index: 100;
+    }
+    .looks em{
+        width: 300px;
+        left: 5vw;
+    }
+    .blue-box p{
+        width: 270px;
+    }
+    .blue-box .white{
+        height: 300px;
+    }
+    .blue-box .white h2{
+        left: 170px;
+    }
+}
